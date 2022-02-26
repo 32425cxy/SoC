@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb 17 16:34:06 2022
+# Process ID: 15452
+# Current directory: D:/HBirdV2_print_core/e203_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14836 D:\HBirdV2_print_core\e203_project\e203_project.xpr
+# Log file: D:/HBirdV2_print_core/e203_project/vivado.log
+# Journal file: D:/HBirdV2_print_core/e203_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/HBirdV2_print_core/e203_project/e203_project.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server

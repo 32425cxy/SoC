@@ -1,0 +1,156 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Feb 21 15:07:54 2022
+# Process ID: 2800
+# Current directory: D:/HBirdV2_print_core_RAM/e203_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1020 D:\HBirdV2_print_core_RAM\e203_project\e203_project.xpr
+# Log file: D:/HBirdV2_print_core_RAM/e203_project/vivado.log
+# Journal file: D:/HBirdV2_print_core_RAM/e203_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/HBirdV2_print_core_RAM/e203_project/e203_project.xpr
+INFO: [Project 1-313] Project file moved from 'D:/HBirdV2_print_core/e203_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:56 ; elapsed = 00:00:40 . Memory (MB): peak = 854.469 ; gain = 262.035
+update_compile_order -fileset sources_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm.dcp' for cell 'ip_mmcm'
+INFO: [Project 1-454] Reading design checkpoint 'd:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/reset_sys/reset_sys.dcp' for cell 'ip_reset_sys'
+INFO: [Project 1-454] Reading design checkpoint 'd:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/ila_0/ila_0.dcp' for cell 'u_lia_inst'
+INFO: [Netlist 29-17] Analyzing 1250 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: u_lia_inst UUID: 7312bef9-0aa5-5b1b-a7a7-b287c9259be8 
+Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/reset_sys/reset_sys_board.xdc] for cell 'ip_reset_sys/U0'
+Finished Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/reset_sys/reset_sys_board.xdc] for cell 'ip_reset_sys/U0'
+Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/reset_sys/reset_sys.xdc] for cell 'ip_reset_sys/U0'
+Finished Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/reset_sys/reset_sys.xdc] for cell 'ip_reset_sys/U0'
+Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm_board.xdc] for cell 'ip_mmcm/inst'
+Finished Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm_board.xdc] for cell 'ip_mmcm/inst'
+Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm.xdc] for cell 'ip_mmcm/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm.xdc:57]
+get_clocks: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1975.602 ; gain = 576.570
+Finished Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/mmcm/mmcm.xdc] for cell 'ip_mmcm/inst'
+Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'u_lia_inst/inst'
+Finished Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'u_lia_inst/inst'
+Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'u_lia_inst/inst'
+Finished Parsing XDC File [d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc] for cell 'u_lia_inst/inst'
+Parsing XDC File [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/constrs_1/new/e203.xdc]
+Finished Parsing XDC File [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/constrs_1/new/e203.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1975.953 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 72 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 32 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 36 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+
+open_run: Time (s): cpu = 00:00:53 ; elapsed = 00:00:42 . Memory (MB): peak = 2005.270 ; gain = 788.191
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/perips/sirv_expl_axi_slv.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/subsys/e203_subsys_mems.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/fab/sirv_icb1to8_bus.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/perips/sirv_expl_axi_slv.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/subsys/e203_subsys_mems.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/fab/sirv_icb1to8_bus.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/perips/sirv_expl_axi_slv.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/subsys/e203_subsys_mems.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/fab/sirv_icb1to8_bus.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom_top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/perips/sirv_expl_axi_slv.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/subsys/e203_subsys_mems.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/fab/sirv_icb1to8_bus.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/imports/e203/mems/sirv_mrom_top.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name e203_ram -dir d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip
+set_property -dict [list CONFIG.Component_Name {e203_ram} CONFIG.Interface_Type {AXI4} CONFIG.Use_AXI_ID {true} CONFIG.Memory_Type {Simple_Dual_Port_RAM} CONFIG.Use_Byte_Write_Enable {true} CONFIG.Byte_Size {8} CONFIG.Assume_Synchronous_Clk {true} CONFIG.Write_Width_A {32} CONFIG.Write_Depth_A {1024} CONFIG.Read_Width_A {32} CONFIG.Operating_Mode_A {READ_FIRST} CONFIG.Write_Width_B {32} CONFIG.Read_Width_B {32} CONFIG.Operating_Mode_B {READ_FIRST} CONFIG.Enable_B {Use_ENB_Pin} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Use_RSTB_Pin {true} CONFIG.Reset_Type {ASYNC} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Enable_Rate {100} CONFIG.EN_SAFETY_CKT {false}] [get_ips e203_ram]
+WARNING: [Vivado 12-3523] Attempt to change 'Component_Name' from 'e203_ram' to 'e203_ram' is not allowed and is ignored.
+generate_target {instantiation_template} [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'e203_ram'...
+generate_target all [get_files  d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'e203_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'e203_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'e203_ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'e203_ram'...
+catch { config_ip_cache -export [get_ips -all e203_ram] }
+export_ip_user_files -of_objects [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci]
+launch_runs -jobs 8 e203_ram_synth_1
+[Mon Feb 21 17:48:59 2022] Launched e203_ram_synth_1...
+Run output will be captured here: D:/HBirdV2_print_core_RAM/e203_project/e203_project.runs/e203_ram_synth_1/runme.log
+export_simulation -of_objects [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci] -directory D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files/sim_scripts -ip_user_files_dir D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files -ipstatic_source_dir D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/modelsim} {questa=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/questa} {riviera=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/riviera} {activehdl=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+export_ip_user_files -of_objects  [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci] -no_script -reset -force -quiet
+remove_files  -fileset e203_ram d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci
+INFO: [Project 1-386] Moving file 'd:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram/e203_ram.xci' from fileset 'e203_ram' to fileset 'sources_1'.
+file delete -force d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/e203_ram
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0 -dir d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip
+set_property -dict [list CONFIG.Interface_Type {AXI4} CONFIG.Use_AXI_ID {true} CONFIG.Memory_Type {Simple_Dual_Port_RAM} CONFIG.Use_Byte_Write_Enable {true} CONFIG.Byte_Size {8} CONFIG.Assume_Synchronous_Clk {true} CONFIG.Write_Width_A {32} CONFIG.Write_Depth_A {1024} CONFIG.Read_Width_A {32} CONFIG.Operating_Mode_A {READ_FIRST} CONFIG.Write_Width_B {32} CONFIG.Read_Width_B {32} CONFIG.Operating_Mode_B {READ_FIRST} CONFIG.Enable_B {Use_ENB_Pin} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Use_RSTB_Pin {true} CONFIG.Reset_Type {ASYNC} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Enable_Rate {100} CONFIG.EN_SAFETY_CKT {false}] [get_ips blk_mem_gen_0]
+generate_target {instantiation_template} [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+generate_target all [get_files  d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+export_ip_user_files -of_objects [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+launch_runs -jobs 8 blk_mem_gen_0_synth_1
+[Mon Feb 21 17:51:22 2022] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: D:/HBirdV2_print_core_RAM/e203_project/e203_project.runs/blk_mem_gen_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files/sim_scripts -ip_user_files_dir D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files -ipstatic_source_dir D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/modelsim} {questa=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/questa} {riviera=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/riviera} {activehdl=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.AXI_Type {AXI4_Lite} CONFIG.Use_AXI_ID {false}] [get_ips blk_mem_gen_0]
+generate_target all [get_files  d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'...
+catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] }
+export_ip_user_files -of_objects [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet
+reset_run blk_mem_gen_0_synth_1
+launch_runs -jobs 8 blk_mem_gen_0_synth_1
+[Mon Feb 21 18:14:39 2022] Launched blk_mem_gen_0_synth_1...
+Run output will be captured here: D:/HBirdV2_print_core_RAM/e203_project/e203_project.runs/blk_mem_gen_0_synth_1/runme.log
+export_simulation -of_objects [get_files d:/HBirdV2_print_core_RAM/e203_project/e203_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -directory D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files/sim_scripts -ip_user_files_dir D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files -ipstatic_source_dir D:/HBirdV2_print_core_RAM/e203_project/e203_project.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/modelsim} {questa=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/questa} {riviera=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/riviera} {activehdl=D:/HBirdV2_print_core_RAM/e203_project/e203_project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Mon Feb 21 18:19:25 2022] Launched synth_1...
+Run output will be captured here: D:/HBirdV2_print_core_RAM/e203_project/e203_project.runs/synth_1/runme.log
+[Mon Feb 21 18:19:25 2022] Launched impl_1...
+Run output will be captured here: D:/HBirdV2_print_core_RAM/e203_project/e203_project.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 21 19:39:27 2022...

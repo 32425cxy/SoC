@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb 17 16:34:06 2022
+# Process ID: 15452
+# Current directory: D:/HBirdV2_print_core/e203_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14836 D:\HBirdV2_print_core\e203_project\e203_project.xpr
+# Log file: D:/HBirdV2_print_core/e203_project/vivado.log
+# Journal file: D:/HBirdV2_print_core/e203_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/HBirdV2_print_core/e203_project/e203_project.xpr
+INFO: [Project 1-313] Project file moved from 'D:/HBirdV2_test/e203_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 830.715 ; gain = 218.195
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Thu Feb 17 17:22:50 2022] Launched synth_1...
+Run output will be captured here: D:/HBirdV2_print_core/e203_project/e203_project.runs/synth_1/runme.log
+[Thu Feb 17 17:22:50 2022] Launched impl_1...
+Run output will be captured here: D:/HBirdV2_print_core/e203_project/e203_project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Thu Feb 17 17:36:25 2022] Launched impl_1...
+Run output will be captured here: D:/HBirdV2_print_core/e203_project/e203_project.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 17 17:40:17 2022...
